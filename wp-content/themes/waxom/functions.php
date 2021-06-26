@@ -85,11 +85,3 @@ function wmx_wp_enqueue_scripts() {
 };
 
 add_action('wp_enqueue_scripts', 'wmx_wp_enqueue_scripts');
-
-function right_way_to_include_google_fonts() {
-	
-}
-add_action('wp_enqueue_scripts', 'right_way_to_include_google_fonts');
-
-
-
